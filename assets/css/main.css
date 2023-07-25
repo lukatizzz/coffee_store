@@ -53,6 +53,9 @@ display: inline;
     justify-items: center;
 
 }
+.logo_image{
+   
+}
 
 
 
@@ -101,6 +104,7 @@ display: inline;
 /*  select age */
 .select_age{
     background-color: #eef2f3 ;
+    vertical-align: middle;
     
    
   text-align: center;
@@ -575,3 +579,107 @@ padding: 30px;
     margin-bottom: 700px;
 }
 }
+
+#carouselExampleDark{
+    padding-top: 150px;
+ 
+}
+.carousel-item{
+    
+}
+.NAME_DRINK {
+    background-color: aliceblue;
+}
+.NAME_DRINK h2{
+    padding: 50px 0 20px 30px;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+#Name_Drink{
+    padding: 20px 20px 30px 30px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: large;
+
+}
+
+.custom-btn {
+    background-color: #000; /* Màu nền ban đầu */
+    color: #ffffff; /* Màu chữ ban đầu */
+  }
+  
+  .custom-btn.active {
+    background-color: #ffffff; /* Màu nền khi nhấn */
+    color: #007bff; /* Màu chữ khi nhấn */
+  }
+
+   .icon-nav button{
+    border-radius: 25%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+    text-decoration: none;
+
+  }
+
+
+/* bảng quản lý */
+
+.BangQuanLy table{
+    width: 100%;
+    border-collapse: collapse;
+    height: max-content;
+    margin-bottom: 100px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+
+  th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  tr:hover {
+    background-color: #e2e2e2;
+  }
+
+  table button {
+    padding: 8px 12px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+ table button:hover {
+    background-color: #45a049;
+  }
+
+  th:nth-child(1),
+  td:nth-child(1) {
+    width: 15%;
+  }
+
+  th:nth-child(2),
+  td:nth-child(2) {
+    width: 45%;
+  }
+
+  th:nth-child(3),
+  td:nth-child(3) {
+    width: 25%;
+  }
+
+  th:nth-child(4),
+  td:nth-child(4) {
+    width: 15%;
+  }
